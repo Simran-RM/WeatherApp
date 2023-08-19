@@ -1,0 +1,93 @@
+html,body {
+    margin:0px;
+    height:100%;
+    width:100%;
+    background: linear-gradient(rgb(124, 205, 254),rgb(28, 111, 143));
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background-image: url('clouds.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    /* align-items: center; */
+}
+
+.header{
+    text-align:center;
+    margin:50px;
+    font-weight: bold;
+    font-size:x-large;
+    color:rgb(250, 250, 250);
+    text-shadow: 7px 7px 5px rgba(89, 84, 84, 0.5);
+    
+    /* margin-left:100px; */
+}
+
+.search-container{
+   
+    width: 400px;
+    height: 200px;
+    background: linear-gradient(#68d5ed,white);
+    border: none;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 150px;
+    opacity: 75%;
+    border-radius: 20px;
+    
+  
+}
+.search-container:hover{
+    background: linear-gradient(#1fd0f7,rgb(249, 249, 249));
+}
+
+input[type="text"] {
+    flex: 1; /* Let the input grow to fill available space */
+    padding: 8px;
+    height:20px;
+    width:280px;
+    align-content: center;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 70px;
+    box-shadow: 0px 10px 10px rgb(126, 124, 124);
+    background: linear-gradient(white,rgb(216, 235, 246));
+    color:black;
+    
+}
+
+.btn {
+    margin-top: 20px;
+    padding:15px 15px;
+    border-radius: 15px;
+    background:linear-gradient(rgb(112, 214, 255),rgb(239, 241, 243));
+    /* border: none; */
+    box-shadow: 0px 10px 10px rgb(126, 124, 124);
+    color:rgb(0, 0, 0);
+    cursor:pointer;
+    border: none;
+   
+}
+.btn:active{
+    background-color: #6abcdf;
+    box-shadow: 0 5px #464444;
+    transform: translateY(4px);
+
+}
+
+.btn:hover{
+    background-color: #0d435b;
+}
+
+p{
+    /* color:rgb(250, 250, 250); */
+    color:rgb(14, 41, 58);
+    text-shadow: 7px 7px 5px rgba(89, 84, 84, 0.5);
+    font-weight: bold;
+    text-align:center;
+    font-size: large;
+}   
